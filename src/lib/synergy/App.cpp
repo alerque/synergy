@@ -256,6 +256,8 @@ MinimalApp::MinimalApp() :
 	App(NULL, NULL, new ArgsBase())
 {
 	setEvents(m_events);
+
+	m_arch.init();
 }
 
 MinimalApp::~MinimalApp()
